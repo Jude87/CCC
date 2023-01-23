@@ -66,8 +66,17 @@ Choose Character
 - 캐릭터 썸네일 게시판 :
 
   + 글 조회, 캐릭터 등록. <br>
-  + 페이징 처리 및 카테고리별 글 검색. (창작자, 캐릭터이름, 캐릭터설명) <br>
+  + 페이징 처리 및 카테고리별 글 검색. (창작자, 캐릭터 이름, 캐릭터 설명) <br>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107044598/213996842-8dd6b195-4234-4b06-850c-21371e352bb8.png">
+</div>
+
+- 캐릭터 상세보기 게시판 :
+
+  + 게시글 제목, 캐릭터 이름, 캐릭터 설명 등록, 다중 첨부파일 업로드 가능. <br>
+  + 등록 첨부파일의 개수를 변경하기 용의하도록 구현.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/107044598/214002700-63e0b608-0a77-4571-ac2a-88740a4cad87.png">
 </div>
