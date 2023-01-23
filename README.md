@@ -56,4 +56,5 @@ Choose Character
   + Team Collaboration Tool : Github
 
 - ER Diagram :<br>
-![CCC_TOTAL_0123(최종)](https://user-images.githubusercontent.com/107044598/213985746-9e15e63d-cd51-4459-b9a7-4b784e366a8b.png)
+![CCC_TOTAL_0123(최종)](https://user-images.githubusercontent.com/107044598/213988734-c01498b0-2e9a-4a81-8e22-1d06b23a7c70.png)
+
