@@ -1,3 +1,55 @@
 # CCC
 
 ![캐캐캐 메인 페이지 화면](https://user-images.githubusercontent.com/107044598/213978497-d8660a98-f7f7-402e-87a3-33e784f90dd4.png)
+
+<br>
+Create Character <br>
+Challenge Character <br>
+Choose Character
+<b>by. Hard Charac</b>
+<br><br>
+사용자가 직접 만든 캐릭터로 대회에 참가하고 가장 높은 좋아요를 받은 <br>
+최고의 캐릭터를 굿즈로 제작하여 창작자와 플랫폼이 동반성장할 수 있는 웹 사이트
+<hr>
+
+- 개발 목표 : 캐릭터 대회 및 캐릭터 굿즈 쇼핑몰 개발
+
+- 수행 기간 : 2022년 12월 13일 ~ 2023년 1월 12일 (약 5주)
+
+- 개발 인원 : 6명
+
+- 기여도 : 20%
+
+- 팀 전체 구현 기능 : <br>
+
+ + 로그인, 회원가입
+ + 상품 등록, 상품 리스트 조회, 상품 리뷰 작성 및 상품 검색.
+ + 관심 상품 등록 및 삭제.
+ + 장바구니 추가 및 삭제.
+ + 주문 내역 기간별 조회, 배송지 정보 조회,
+ + 공지사항 다중 첨부파일 글 등록, 수정, 삭제. 페이지당 게시글 변경 및 페이징 처리.
+ + 자유게시판 다중 첨부파일 글 등록, 수정, 삭제. 댓글 등록, 수정, 삭제. 관리자 로그인 시 그룹 삭제.
+ + 문의 게시판 글 등록, 수정, 삭제. 내 글보기. 관리자 로그인 시 그룹 삭제 및 답변 등록.
+ + 캐릭터 월드컵
+ + 캐릭터 게시판 글 등록, 수정 삭제. 캐릭터 좋아요 표시. 게시글에 댓글 및 대댓글 등록, 수정, 삭제.
+ + 내 캐릭터 조회, 등록, 수정, 삭제
+ + 회원 그룹 차단. 회원 목록 EXCEL 문서로 출력.
+ + 관리자 등록, 수정, 삭제
+ + 배송지 조회, 등록, 수정, 삭제.
+
+- 개발 환경 : <br>
+
+ + OS : Window 10
+ + Development Tool : STS3, Visual Studio Code
+ + DBMS : Oracle DB-SQLDeveloper
+ + Server : Apache Tomcat v8.5
+ + Framework : Spring Framework 5.3.24, Mybatis 3
+ + Management and comprehension Tool : Maven 3.8.6
+ + Language : Java 1.8, JavaScript, HTML5, CSS3
+ + Application Tool : JSP 3.2
+ + Design Tool : BootStrap 4.3.1
+ + Library : jQuery 3.4.1
+ + Team Collaboration Tool : Github
+
+- ER Diagram : <br>
+
