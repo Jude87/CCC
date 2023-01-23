@@ -57,9 +57,10 @@ Choose Character
   + Team Collaboration Tool : Github
 
 - ER Diagram <br>
-- DB 설계 시 고려한 부분
+  + DB 설계 시 고려한 부분
 팀 프로젝트를 시작하며 각자 구현에 사용하는 테이블을 스스로 작성하고 수정하면서 공부할 수 있도록<br>
 게시판과 첨부파일을 게시판의 타입별로 나누지 않고 DB를 구성하였습니다.
+<br>
 ![CCC_TOTAL_0123(최종)](https://user-images.githubusercontent.com/107044598/214007630-4b38871d-fb31-4a69-9b0a-e5b270bdf9a0.png)
 
 <br>
