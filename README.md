@@ -20,7 +20,7 @@ Choose Character
 
 - 기여도 : 20%
 
-- 팀 전체 구현 기능 :<br>
+# 팀 전체 구현 기능
 
   + 로그인, 회원가입
   + 상품 등록, 상품 리스트 조회, 상품 리뷰 작성 및 상품 검색.
@@ -41,7 +41,7 @@ Choose Character
   + 배송지 조회, 등록, 수정, 삭제.
 
 <hr>
-- 개발 환경 :<br>
+# 개발 환경
 
   + OS : Window 10
   + Development Tool : STS3, Visual Studio Code
@@ -61,7 +61,7 @@ Choose Character
 <hr>
 <br>
 
-# 담당 기능 설명 :
+# 담당 기능 설명
 
 - 캐릭터 썸네일 게시판 :
 
