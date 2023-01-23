@@ -104,6 +104,6 @@ Choose Character
   <img src="https://user-images.githubusercontent.com/107044598/214010060-0ec5a375-6d72-4204-b545-7f08090013ba.png">
 </div>
 
-<br><hr><br>
+<br><hr>
 
 # 읽어주셔서 감사합니다.
