@@ -36,7 +36,7 @@
 	<div class="content">
         <br><br><br><br><br><br>
         <div class="innerOuter">
-            <h2>게시글 작성하기</h2>
+            <h2>캐릭터 등록하기</h2>
             <br>
 	        <form action="insert.ch" id="enrollForm" method="post" enctype="multipart/form-data">
 				<input type="hidden" name="boardWriterNo" value="${ loginUser.memberNo }">
