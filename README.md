@@ -72,11 +72,20 @@ Choose Character
   <img src="https://user-images.githubusercontent.com/107044598/213996842-8dd6b195-4234-4b06-850c-21371e352bb8.png">
 </div>
 
-- 캐릭터 상세보기 게시판 :
+- 캐릭터 등록  :
 
   + 게시글 제목, 캐릭터 이름, 캐릭터 설명 등록, 다중 첨부파일 업로드 가능. <br>
   + 등록 첨부파일의 개수를 변경하기 용의하도록 구현.
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/107044598/214002700-63e0b608-0a77-4571-ac2a-88740a4cad87.png">
+  <img src="https://user-images.githubusercontent.com/107044598/214003080-00000db8-4804-482b-9bbe-2fc054e4cbf3.png">
+</div>
+
+- 캐릭터 상세보기 페이지 :
+
+  + 등록된 캐릭터 첨부파일 표시, 작성자만 게시글 수정 및 삭제 가능
+  + 로그인 유저 댓글 및 대댓글 등록, 수정, 삭제
+  
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/107044598/214004527-266503b7-c7ee-4677-a72e-7a2aa475bf28.png">
 </div>
