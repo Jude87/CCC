@@ -20,36 +20,39 @@ Choose Character
 
 - 기여도 : 20%
 
-- 팀 전체 구현 기능 : <br>
+- 팀 전체 구현 기능 :<br>
 
   + 로그인, 회원가입
- + 상품 등록, 상품 리스트 조회, 상품 리뷰 작성 및 상품 검색.
- + 관심 상품 등록 및 삭제.
- + 장바구니 추가 및 삭제.
- + 주문 내역 기간별 조회, 배송지 정보 조회,
- + 공지사항 다중 첨부파일 글 등록, 수정, 삭제. 페이지당 게시글 변경 및 페이징 처리.
- + 자유게시판 다중 첨부파일 글 등록, 수정, 삭제. 댓글 등록, 수정, 삭제. 관리자 로그인 시 그룹 삭제.
- + 문의 게시판 글 등록, 수정, 삭제. 내 글보기. 관리자 로그인 시 그룹 삭제 및 답변 등록.
- + 캐릭터 월드컵
- + 캐릭터 게시판 글 등록, 수정 삭제. 캐릭터 좋아요 표시. 게시글에 댓글 및 대댓글 등록, 수정, 삭제.
- + 내 캐릭터 조회, 등록, 수정, 삭제
- + 회원 그룹 차단. 회원 목록 EXCEL 문서로 출력.
- + 관리자 등록, 수정, 삭제
- + 배송지 조회, 등록, 수정, 삭제.
+  + 상품 등록, 상품 리스트 조회, 상품 리뷰 작성 및 상품 검색.
+  + 캐릭터 월드컵
+  + <b>캐릭터 게시판 다중 첨부파일 글 등록, 수정, 삭제. 캐릭터 좋아요 표시. 게시글에 댓글 및 대댓글 등록, 수정, 삭제.</b>
+  + <b>캐릭터 게시판 페이징 처리. 캐릭터 이름, 내용, 창작자 카테고리 글 검색 기능</b>
+  + 내 캐릭터 조회, 등록, 수정, 삭제
+  + 관심 상품 등록 및 삭제.
+  + 장바구니 추가 및 삭제.
+  + 주문 내역 기간별 조회, 배송지 정보 조회.
+  + 공지사항 다중 첨부파일 글 등록, 수정, 삭제. 페이지당 게시글 변경 및 페이징 처리.
+  + 자유게시판 다중 첨부파일 글 등록, 수정, 삭제. 댓글 등록, 수정, 삭제. 관리자 로그인 시 그룹 삭제.
+  + 문의 게시판 글 등록, 수정, 삭제. 내 글보기. 관리자 로그인 시 그룹 삭제 및 답변 등록.
+  + 회원 그룹 차단. 회원 목록 EXCEL 문서로 출력.
+  + 관리자 등록, 수정, 삭제
+  + 배송지 조회, 등록, 수정, 삭제.
 
-- 개발 환경 : <br>
+<hr>
+- 개발 환경 :<br>
 
- + OS : Window 10
- + Development Tool : STS3, Visual Studio Code
- + DBMS : Oracle DB-SQLDeveloper
- + Server : Apache Tomcat v8.5
- + Framework : Spring Framework 5.3.24, Mybatis 3
- + Management and comprehension Tool : Maven 3.8.6
- + Language : Java 1.8, JavaScript, HTML5, CSS3
- + Application Tool : JSP 3.2
- + Design Tool : BootStrap 4.3.1
- + Library : jQuery 3.4.1
- + Team Collaboration Tool : Github
+  + OS : Window 10
+  + Development Tool : STS3, Visual Studio Code
+  + DBMS : Oracle DB-SQLDeveloper
+  + Server : Apache Tomcat v8.5
+  + Framework : Spring Framework 5.3.24, Mybatis 3
+  + Management and comprehension Tool : Maven 3.8.6
+  + Language : Java 1.8, JavaScript5, HTML5, CSS3
+  + Application Tool : JSP 3.2
+  + Design Tool : BootStrap 4.3.1
+  + Library : jQuery 3.4.1
+  + Team Collaboration Tool : Github
 
-- ER Diagram : <br>
+- ER Diagram :<br>
+![ERD_CCC_TOTAL](https://user-images.githubusercontent.com/107044598/213982141-2c4573a9-b850-494d-9cf9-03c1aa400fc6.png)
 
