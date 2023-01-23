@@ -73,7 +73,7 @@ Choose Character
   <img src="https://user-images.githubusercontent.com/107044598/213996842-8dd6b195-4234-4b06-850c-21371e352bb8.png">
 </div>
 
-- 캐릭터 등록
+- 캐릭터 등록 페이지
 
   + 게시글 제목, 캐릭터 이름, 캐릭터 설명 등록, 다중 첨부파일 업로드 가능. <br>
   + 등록 첨부파일의 개수를 변경하기 용의하도록 구현.
@@ -90,3 +90,16 @@ Choose Character
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107044598/214004527-266503b7-c7ee-4677-a72e-7a2aa475bf28.png">
 </div>
+
+- 캐릭터 수정 페이지
+
+  + 게시글 제목, 캐릭터 이름, 캐릭터 설명 수정, 다중 첨부파일 수정 가능. <br>
+  + 기존 첨부파일 삭제 개수 조정 및 수정 가능.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/107044598/214010060-0ec5a375-6d72-4204-b545-7f08090013ba.png">
+</div>
+
+<br><hr>
+
+# 읽어주셔서 감사합니다.
