@@ -113,15 +113,17 @@
 			                            <div class="portfolio-caption">
 			                                <div class="portfolio-caption-heading"></div>
 			                                <div class="portfolio-caption-subheading text-muted"><p style="font-size:x-large;">${ b.boardTitle }</p></div>
-			                      			
-			   								<c:choose>
-			   									<c:when test="${ b.memberLike eq 1 }">	   										              
-			   										<span class="likeFont">좋아요 </span><img class="likeBtn" onclick="likeGo('${ b.boardNo }');" src="${ pageContext.request.contentType }resources/character/likeImg/free-icon-heart-true.png" title="heart icons"><br><span class="likeFont">좋아요 수 : ${ b.like }</span>   
-			   									</c:when>
-			   									<c:otherwise>		   																	                                        			   										
-			   										<span class="likeFont">좋아요 </span><img class="likeBtn" onclick="likeGo('${ b.boardNo }');" src="${ pageContext.request.contentType }resources/character/likeImg/free-icon-heart-false.png" title="heart icons"><br><span class="likeFont">좋아요 수 : ${ b.like }</span>		                                        			   										
-			   									</c:otherwise>
-			   								</c:choose>
+			                      			<!-- 로그인 유저가 있어야 좋아요 내역이 보이도록 -->
+			                      			<c:if test="${ not empty loginUser }">
+				   								<c:choose>
+				   									<c:when test="${ b.memberLike eq 1 }">	   										              
+				   										<span class="likeFont">좋아요 </span><img class="likeBtn" onclick="likeGo('${ b.boardNo }');" src="${ pageContext.request.contentType }resources/character/likeImg/free-icon-heart-true.png" title="heart icons"><br><span class="likeFont">좋아요 수 : ${ b.like }</span>   
+				   									</c:when>
+				   									<c:otherwise>		   																	                                        			   										
+				   										<span class="likeFont">좋아요 </span><img class="likeBtn" onclick="likeGo('${ b.boardNo }');" src="${ pageContext.request.contentType }resources/character/likeImg/free-icon-heart-false.png" title="heart icons"><br><span class="likeFont">좋아요 수 : ${ b.like }</span>		                                        			   										
+				   									</c:otherwise>
+				   								</c:choose>
+			   								</c:if>
 			                            </div>
 			                        </div>
 			                    </div> 

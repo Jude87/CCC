@@ -334,6 +334,9 @@
        	$(document).on("click","table #reUpdateNo",function(){
        		reUpdateNo = $(this).val();
        	});
+       	
+		//로그인유저의 이름을 담는 변수
+       	let loginUserName = "${ loginUser.memberName }";
 
        	//댓글 리스트 출력 (게시글 번호)
        	function selectReplyList(){
@@ -348,12 +351,18 @@
        							   + "<th style='text-align:left;'>"+reList[i].reWriterName+"</th>"
        							   + "<td style='text-align:left;'>"+reList[i].reContent+"</td>"
        							   + "<td>"+reList[i].reCreateDate+"</td>"
-       							   + "<td colspan='2'><button class='btn btn-outline-success' data-toggle='modal' data-target='#reReply'"
-       							   + "id='reUpdateNo' value=+"+reList[i].reNo+">답글</button>"
-       							   + "<button class='btn btn-outline-primary' data-toggle='modal' data-target='#updateReply'"
-       							   + "id='reUpdateNo'"+reList[i].reNo+" value=+"+reList[i].reNo+">수정</button>"
-       							   + "<button onclick='return deleteReply("+reList[i].reNo+")' class='btn btn-outline-danger'>삭제</button></td>"     							   
-       							   + "</tr>";
+       							   + "<td colspan='2'>";
+       					if(loginUserName != null){
+       						if(reList[i].reWriterName == loginUserName){
+       							resultStr += "<button class='btn btn-outline-primary' data-toggle='modal' data-target='#updateReply'"
+			       						   + "id='reUpdateNo'"+reList[i].reNo+" value=+"+reList[i].reNo+">수정</button>"
+			       						   + "<button onclick='return deleteReply("+reList[i].reNo+")' class='btn btn-outline-danger'>삭제</button>";
+       						}
+       						resultStr += "<button class='btn btn-outline-success' data-toggle='modal' data-target='#reReply'"
+    							   	   + "id='reUpdateNo' value=+"+reList[i].reNo+">답글</button>";
+       					}
+       					resultStr += "</td></tr>";
+      
        				}
        				//댓글 내용 body에 추가
        				$("#replyArea > tbody").html(resultStr);
@@ -418,8 +427,16 @@
        		})
        	}
        	
-       	//댓글 삭제 (글 번호,로그인유저 번호,댓글 번호)
+       	//정말 삭제할것인지 컨펌
        	function deleteReply(reNo){
+       		let result = confirm("정말로 삭제하시겠습니까?");
+       		if(result){
+       			confirmDeleteReply(reNo);
+       		}
+       	}
+       	
+       	//댓글 삭제 (글 번호,로그인유저 번호,댓글 번호)
+       	function confirmDeleteReply(reNo){
        		$.ajax({
        			url : "deleteReply.ch",
        			data : {
@@ -428,9 +445,8 @@
        				reNo : reNo
        			},
        			success : function(result){
-       				let deleteReply = confirm("정말 삭제하시겠습니까?");
        				
-       				if((result == "NNNNY") && deleteReply){
+       				if((result == "NNNNY")){
        					alert("댓글을 삭제하였습니다!");
        					selectReplyList();
        				}
